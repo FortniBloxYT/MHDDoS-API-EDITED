@@ -1181,8 +1181,8 @@ def downloadsocks(choice):
     if choice == "1":
         f = open(out_file, 'wb')
         try:
-            r = requests.get("https://raw.githubusercontent.com/FortniBloxYT/https-proxy/main/httpv3.txt",
-                             timeout=8)
+            r = requests.get("https://raw.githubusercontent.com/FortniBloxYT/https-proxy/main/HTTPROXYv2.TXT",
+                             timeout=5)
             f.write(r.content)
         except:
             pass
